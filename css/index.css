@@ -28,12 +28,12 @@ a,p,h1, h2, h3, h4, h5, h6,span{font-family:Microsoft Yahei;color:#424242;}
 .fl{float:left;}
 .red{color:#fe5b56;}
 
-.head{background:#fff;height:80px;}
+.head{background:#fff;height:80px;width:expression(document.body.clientWidth <= 1170? "1170px": "auto");min-width:1170px;width:100%;}
 .head h1 a{text-indent:-9999px;;display:block;height:80px;width:304px;background:url(../images/logo_03.gif) no-repeat center center;}
 .head .nav li{float:left;padding:0 20px;tetx-align:center;line-height:80px;font-size:14px;}
 .head .nav a{display:block;blr:expression(this.onFocus=this.blur());}
 .head .nav{margin-right:100px;position:relative;}
-.banner{height:460px;}
+.banner{height:460px;width:expression(document.body.clientWidth <= 1170? "1170px": "auto");min-width:1170px;width:100%;}
 .head .nav li a:hover{color:#FF0000;}
 .cls{clear:both;}
 .curBg { background:#F00;height:3px;position:absolute;bottom:1px;width:68px;left:0px;}
@@ -56,7 +56,7 @@ a,p,h1, h2, h3, h4, h5, h6,span{font-family:Microsoft Yahei;color:#424242;}
 .list_lh{ height:20px; overflow:hidden;margin:30px 0 30px 50px;}
 .list_lh li.lieven{ background:#F0F2F3;}
 
-.studyPlan{height:800px;background:url(../images/filter_bg_0631e0e.png) no-repeat center center;}
+.studyPlan{height:800px;background:url(../images/filter_bg_0631e0e.png) no-repeat center center;width:expression(document.body.clientWidth <= 1170? "1170px": "auto");min-width:1170px;width:100%;}
 .studyPlan h2{text-align:center;font-size:68px;padding:60px 0 36px 0;}
 .gradientLine{height:2px;width:770px;margin:0 auto;background:linear-gradient(to left,#fde5e4,#fe716d,#fe5b56,#fe716d,#fde5e4);-webkit-background:linear-gradient(to left,#fde5e4,#fe716d,#fe5b56,#fe716d,#fde5e4);background:#fe5b56\9;}
 .studyPlan .title p{padding:156px 0 0 0;font-size:36px;line-height:56px;}
@@ -70,7 +70,7 @@ span.bgr a:hover{background:#f93f3a;border-radius:3px;-webkit-border-radius:3px;
 .studyPlan .plan3{background:url(../images/planicon_17.png) no-repeat left center;margin-top:50px!important;animation-delay:0.6s;}
 .studyPlan .plan4{background:url(../images/planicon_21.png) no-repeat left center;margin:60px 0 0 40px!important;animation-delay:1.4s;}
 
-.compare{height:800px;background:url(../images/thinking_63db3f3.png) no-repeat left center #fff;text-align:center;font-family:Microsoft Yahei;}
+.compare{height:800px;background:url(../images/thinking_63db3f3.png) no-repeat left center #fff;text-align:center;font-family:Microsoft Yahei;width:expression(document.body.clientWidth <= 1170? "1170px": "auto");min-width:1170px;width:100%;}
 .compare h2{font-size:40px;line-height:150px;height:150px;}
 .compare p{margin-left:70px;font-size:40px;line-height:86px;height:86px;width:1030px;background:#fe5b56;color:#fff;}
 .compare p i{text-indent:-9999px;display:inline-block;width:46px;background:url(../images/three.png) no-repeat center center;}
@@ -85,7 +85,7 @@ span.bgr a:hover{background:#f93f3a;border-radius:3px;-webkit-border-radius:3px;
 span.bgw a{width:200px;height:50px;background:#fff;line-height:50px;text-align:center;display:block;margin:40px 0 0 230px;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;border:1px solid #fe5b56;color:#fe5b56;font-size:20px;transition:all 0.3s linear;-moz-transition:all 0.3s linear;-webkit-transition:all 0.3s linear;}
 span.bgw a:hover{background:#fe5b56;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;color:#fff;border:1px solid #fff;}
 
-.teacherteam{font-family:Microsoft Yahei;height:894px;background:url(../images/method_bg_1417caf.png) no-repeat center center;text-align:center;}
+.teacherteam{font-family:Microsoft Yahei;height:894px;background:url(../images/method_bg_1417caf.png) no-repeat center center;text-align:center;width:expression(document.body.clientWidth <= 1170? "1170px": "auto");min-width:1170px;width:100%;}
 .teacherteam h2{font-size:48px;line-height:160px;}
 .teacherteam p{font-size:36px;line-height:52px;padding:30px 0 50px 0;}
 .teacherteam li{height:0;border-top: 60px solid #5fbfec;border-left: 32px solid transparent;border-right: 32px solid transparent;line-height:0;margin:30px 0;width:800px;transition:all 0.2s linear;-moz-transition:all 0.2s linear;-webkit-transition:all 0.2s linear;transform:rotateX(0deg);display: list-item;}
@@ -96,7 +96,7 @@ span.bgw a:hover{background:#fe5b56;border-radius:3px;-webkit-border-radius:3px;
 .teacherteam li:hover{transform:rotateX(360deg);}
 .teacherteam .bgr a{margin:70px 0 0 680px;}
 
-.teacher{color:#fff;height:800px;text-align:center;}
+.teacher{color:#fff;height:800px;text-align:center;width:expression(document.body.clientWidth <= 1170? "1170px": "auto");min-width:1170px;width:100%;}
 .teacher h2{font-size:40px;padding:50px 0;}
 .teacher .list{padding:70px 0 0 0;}
 .teacher li{float:left;height:126px; width:360px;}
@@ -122,7 +122,7 @@ div.fsbanner { position:relative;overflow:hidden;height:407px;color:white;border
 .ex{width: 800px;margin:0 auto;}
 .fsbanner{margin-top: 10px;}
 
-.stuShow{height:858px;background:url(../images/grade_bg_245554b.png) no-repeat center center;}
+.stuShow{height:858px;background:url(../images/grade_bg_245554b.png) no-repeat center center;width:expression(document.body.clientWidth <= 1170? "1170px": "auto");min-width:1170px;width:100%;}
 .stuShow .contents>h2{text-align:center;font-size:40px;padding:70px 0 30px 0;}
 .stuShow .contents>p{text-align:center;font-size:30px;line-height:146px;}
 
@@ -164,7 +164,7 @@ div.fsbanner { position:relative;overflow:hidden;height:407px;color:white;border
 
 .studentRecord .bgw a{margin:30px 0 0 480px;}
 
-.secure{height:580px;background:url(../images/page4_c8ae114.png) no-repeat center center;}
+.secure{height:580px;background:url(../images/page4_c8ae114.png) no-repeat center center;width:expression(document.body.clientWidth <= 1170? "1170px": "auto");min-width:1170px;width:100%;}
 .secure .contents>h2{font-size:40px;line-height:100px;text-align:center;padding:20px 0 0 0;}
 .secure ul{margin:40px auto 0 auto;width:840px;height:309px;}
 .secure ul li{width:200px;float:left;text-align:center;padding:220px 40px 0 40px;transition:all 0.3s linear;-moz-transition:all 0.3s linear;-webkit-transition:all 0.3s linear;}
@@ -175,7 +175,7 @@ div.fsbanner { position:relative;overflow:hidden;height:407px;color:white;border
 .secure .bgr a{margin:30px 0 0 480px;}
 .secure li:hover{transform:translate(0,-3px);text-shadow:0 4px 10px rgba(254,91,86,0.2)}
 
-.bar{height:50px;width:100%;}
+.bar{height:50px;width:100%;width:expression(document.body.clientWidth <= 1170? "1170px": "auto");min-width:1170px;width:100%;}
 .bar .bg{height:50px;width:100%;background:#000;opacity:0.5;filter:alpha(opacity=70)\9;}
 .bar .contents{position:relative;top:-40px;}
 
@@ -185,11 +185,11 @@ div.fsbanner { position:relative;overflow:hidden;height:407px;color:white;border
 .bar button{height:30px;line-height:30px;width:100px;background:#fe5b56;border:none;color:#fff;font-size:14px;background:linear-gradient(to bottom,#fe716d,#fe5b56);-webkit-background:linear-gradient(to bottom,#fe716d,#fe5b56);background:#fe5b56\9;font-family:Microsoft Yahei;}
 
 
-.footer-top{height:40px;background:#fe5b56;}
+.footer-top{height:40px;background:#fe5b56;width:expression(document.body.clientWidth <= 1170? "1170px": "auto");min-width:1170px;width:100%;}
 .footer .contents{padding:0 0 0 100px;}
 .footer li{float:left;}
 .footer a{padding:0 10px;}
-.footer{padding:30px 0;background:#4B4B4B;color:#666;font-size:12px;}
+.footer{padding:30px 0;background:#4B4B4B;color:#666;font-size:12px;width:expression(document.body.clientWidth <= 1170? "1170px": "auto");min-width:1170px;width:100%;}
 .footer a,.footer p{color:#ccc;font-size:12px;line-height:28px;}
 .footer p{padding:0 10px;}
 
@@ -346,9 +346,5 @@ div.fsbanner { position:relative;overflow:hidden;height:407px;color:white;border
 .min h2 span{font-size:18px;}
 .barCenter input,.barCenter bottom,.barCenter select{display:block;margin:15px 0!important;}
 .barCenter #name,.barCenter #tel{width:200px;}
-
-
-
-
 
 
