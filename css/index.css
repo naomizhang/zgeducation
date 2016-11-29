@@ -96,7 +96,7 @@ span.bgw a:hover{background:#fe5b56;border-radius:3px;-webkit-border-radius:3px;
 .teacherteam li:hover{transform:rotateX(360deg);}
 .teacherteam .bgr a{margin:70px 0 0 680px;}
 
-.teacher{color:#fff;height:800px;text-align:center;width:expression(document.body.clientWidth <= 1170? "1170px": "auto");min-width:1170px;width:100%;}
+.teacher{color:#fff;height:800px;text-align:center;}
 .teacher h2{font-size:40px;padding:50px 0;}
 .teacher .list{padding:70px 0 0 0;}
 .teacher li{float:left;height:126px; width:360px;}
